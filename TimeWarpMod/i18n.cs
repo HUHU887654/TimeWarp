@@ -100,6 +100,27 @@ namespace TimeWarpMod
                     _["SPEED"]                  = "Velocità: ";
                     _["NIGHT_DISABLED"]         = "Ciclo Notte disattivata nelle impostazioni";
 
+	            return;
+                case "cn":
+
+                    _["MOD_NAME"]               = "时间光照控制";
+                    _["MOD_DESCRIPTION"]        = "右键点击滑块来设置时间";
+
+                    _["TOGGLE_TOOLTIP"]         = "白天/夜晚 设置";
+                    _["ZOOMBUTTON_TOOLTIP"]     = "区域 \n 右键点击滑块来设置时间";
+                    _["SUNCONTROL"]             = "太阳控制";
+                    _["SUNCONTROL_TITLE"]       = "白天/夜晚 设置";
+                    _["SUNCONTROL_SIZE"]        = "太阳大小";
+                    _["SUNCONTROL_INTENSITY"]   = "阳光强度";
+                    _["LATTITUDE"]              = "纬度 : ";
+                    _["LONGITUDE"]              = "经度 : ";
+                    _["SPEED_PAUZED"]           = "速度停止";
+                    _["SPEED_NORMAL"]           = "速度正常";
+                    _["SPEED_DISABLED"]         = "禁用";
+                    _["SPEED"]                  = "速度: ";
+            
+                    _["NIGHT_DISABLED"]         = "在设置中禁用昼夜循环";
+			    
                     return;
                 case "ko":
 
